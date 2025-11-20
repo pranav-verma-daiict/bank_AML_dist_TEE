@@ -1,0 +1,9 @@
+[package]
+name = "bank-gold-final"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tfhe = { version = "1.4", features = ["integer"] }
+rand = "0.8"
+sha2 = "0.10"
